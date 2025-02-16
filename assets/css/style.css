@@ -10861,7 +10861,7 @@ a.pe-none {
   max-width: max-content;
 }
 .home-2-area-shep p {
-  clip-path: polygon(5% 1%, 85% 0, 80% 100%, 0% 100%);
+  /*clip-path: polygon(5% 1%, 85% 0, 80% 100%, 0% 100%);*/
   padding: 0 40px 0 23px;
   display: inline-block;
   background-color: #924FFF;
@@ -10871,16 +10871,16 @@ a.pe-none {
   font-size: 14px;
   font-weight: 500;
 }
-.home-2-area-shep::after {
-  content: "";
-  position: absolute;
-  width: 3px;
-  top: 0px;
-  right: 10px;
-  height: 28px;
-  transform: rotate(11deg);
-  background-color: #924FFF;
-}
+/*.home-2-area-shep::after {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*  width: 3px;*/
+/*  top: 0px;*/
+/*  right: 10px;*/
+/*  height: 28px;*/
+/*  transform: rotate(11deg);*/
+/*  background-color: #924FFF;*/
+/*}*/
 .home-2-area-shep.secondary p {
   background-color: #53B7BD;
 }
@@ -15915,7 +15915,7 @@ html[data-theme=dark] body.home-three .header-sticky .echo-site-main-logo-menu-s
   position: relative;
   transition: all 0.4s;
   font-weight: 500;
-  padding: 0 18px;
+  padding: 0 10px;
 }
 @media (max-width: 1200px) {
   .echo-site-main-logo-menu-social ul.echo-desktop-menu li.echo-has-dropdown a.echo-dropdown-main-element {
@@ -16046,7 +16046,7 @@ html[data-theme=dark] body.home-three .header-sticky .echo-site-main-logo-menu-s
 }
 .echo-site-main-logo-menu-social ul.echo-desktop-menu li.menu-item .echo-dropdown-main-element {
   font-weight: 500;
-  padding: 0 18px;
+  padding: 0 8px;
 }
 .echo-site-main-logo-menu-social .echo-home-1-social-media-icons {
   text-align: right;
@@ -17433,7 +17433,7 @@ html[data-theme=dark] .echo-header-area.header-ten .header-three .echo-site-main
 }
 
 .side-bar {
-  background-color: #181823;
+  background-color: #09999A;
 }
 .side-bar .inner-main-wrapper-desk {
   padding-top: 0;
@@ -20325,6 +20325,7 @@ html[data-theme=dark] .echo-header-area.header-seven .echo-home-2-menu .echo-sit
 }
 .echo-home-2-feature-area .echo-feature-content .echo-feature-main-content .echo-feature-area-img .echo-feature-area-home-2-post a img {
   width: 100%;
+  height: 400px;
 }
 .echo-home-2-feature-area .echo-feature-content .echo-feature-main-content .echo-feature-area-img .echo-feature-area-shep {
   position: absolute;
@@ -20885,9 +20886,8 @@ html[data-theme=dark] .echo-header-area.header-seven .echo-home-2-menu .echo-sit
 .echo-archive-area .echo-archive-area-content .echo-archive-area-full-content .echo-archive-area-slider-content .echo-banner-mani-content .echo-banner-text .echo-banner-heading {
   margin-top: 20px;
 }
-.echo-archive-area .echo-archive-area-content .echo-archive-area-full-content .echo-archive-area-slider-content .echo-banner-mani-content .echo-banner-text .echo-banner-heading h1 {
+.echo-archive-narea .echo-archive-area-content .echo-archive-area-full-content .echo-archive-area-slider-content .echo-banner-mani-content .echo-banner-text .echo-banner-heading h1 {
   font-size: 60px;
-  line-height: 70px;
   margin: 0;
 }
 .echo-archive-area .echo-archive-area-content .echo-archive-area-full-content .echo-archive-area-slider-content .echo-banner-mani-content .echo-banner-text .echo-3-align-icons {
@@ -25907,8 +25907,8 @@ html[data-theme=dark] .echo-header-area.header-seven .echo-home-2-menu .echo-sit
   margin-top: 20px;
 }
 .echo-banner .echo-banner-mani-content .echo-banner-text .echo-banner-heading h1 {
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 25px;
+  line-height: 40px;
   margin: 0;
 }
 .echo-banner .echo-banner-mani-content .echo-banner-text .echo-3-align-icons {
@@ -34427,3 +34427,43 @@ html[data-theme=dark] body.home-two .echo-footer-area.footer-2 .echo-get-in-tuch
   color: #5E5E5E;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+.sidebar-social ul {
+  list-style: none;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-evenly;
+}
+
+.sidebar-social ul li {
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.sidebar-social ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #333;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-social ul li a:hover {
+  background: #007bff;
+  transform: scale(1.1);
+}
+
+/* Har bir ijtimoiy tarmoq uchun maxsus rang */
+.sidebar-social ul li:nth-child(1) a:hover { background: #1877F2; } /* Facebook */
+.sidebar-social ul li:nth-child(2) a:hover { background: #0088CC; } /* Telegram */
+.sidebar-social ul li:nth-child(3) a:hover { background: #E1306C; } /* Instagram */

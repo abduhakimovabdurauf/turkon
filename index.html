@@ -91,14 +91,15 @@
                                                 <li class="menu-item">
                                                     <a href="index.html" class="echo-dropdown-main-element active">Bosh Sahifa</a>
                                                 </li>
-                                                <li class="menu-item"><a class="main mobile-menu-link" href="#importantNews">Muhim Voqealar</a></li>
+                                                <li class="menu-item"><a class="echo-dropdown-main-element active" href="index.html#importantNews">Jurnal sonlari</a></li>
+                                                <li class="menu-item"><a class="echo-dropdown-main-element active" href="index.html#cooperation">Hamkorlik</a></li>
+                                                <li class="menu-item"><a class="echo-dropdown-main-element active" href="index.html#businessPossibilities">Biznes imkoniyatlari</a></li>
+                                                <li class="menu-item"><a href="contact.html" class="echo-dropdown-main-element active">Boglanish</a></li>
                                                 <li class="menu-item">
                                                     <a href="team.html" class="echo-dropdown-main-element active">Jamoa</a>
                                                 </li>
-                                                <li class="menu-item"><a class="main mobile-menu-link" href="#cooperation">Hamkorlik</a></li>
-                                                <li class="menu-item"><a class="echo-dropdown-main-element active" href="#businessPossibilities">Biznes imkoniyatlari</a></li>
-                                                <li class="menu-item"><a href="contact.html" class="echo-dropdown-main-element active">Boglanish</a></li>
                                             </ul>
+                                            <!-- main mobile-menu-link -->
                                         </div>
                                     </nav>
                                 </div>
@@ -130,49 +131,70 @@
             <div class="inner-main-wrapper-desk d-none d-lg-block">
                 <div class="thumbnail">
                     <img src="assets/images/home-2/logo/logo.png" alt="echo">
-                </div>
-                <div class="inner-content">
-                    <div class="category-menu-area">
-                        <ul class="category-area">
-                            <li class="item">
-                                <div class="image-area">
-                                    <a href="#">
-                                        <img src="assets/images/category-style-1/1.png" alt="">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="recent-post-title">
-                                        <a href="#">Voqea bahsdan boshlanib ketgan edi.</a>
-                                    </div>
-                                    <p class="desc"><a href="#"><i class="fa-light fa-user"></i>Asley Graham</a></p>
-                                </div>
-                            </li>
-                            <li class="item">
-                                <div class="image-area"><a href="#"><img src="assets/images/category-style-1/2.png" alt=""></a></div>
-                                <div class="content">
-                                    <div class="recent-post-title">
-                                        <a href="#">Voqea bahsdan boshlanib ketgan edi.</a>
-                                    </div>
-                                    <p class="desc"><a href="#"><i class="fa-light fa-user"></i>Emily Dicingson</a></p>
-                                </div>
-                            </li>
+                    <div class="sidebar-social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=61572360155509" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://t.me/Turkon_busness" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a href="https://www.instagram.com/turkonuz/?igsh=Mjg4amN4aDVyNG1y#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
+                </div>
+                
+                <div class="echo-cl-blocks-title">
+                    <!-- <h3 class="text-capitalize">
+                        <a href="#" class="title-hover">Loyiha Haqida</a>
+                    </h3> -->
+                    <p> O‘zbekiston Respublikasi hududida faoliyat yurutuvchi tadbirkor ayyollar ish faoliyatini keng ommaga hamda, xalqaro miqyosda targ‘ib qilish uchun mo‘ljallangan bosma nashr va onlayn axborot portalini o‘z ichiga oladi.</p>
+                </div>
+
+                <div class="inner-content">
                     <div class="newsletter-form">
                         <div class="form-inner">
                             <div class="content">
                                 <div class="newsletter-image">
                                     <img src="assets/images/home-1/feature-right/news-item-1.png" alt="">
                                 </div>
-                                <h3 class="title">Yangiliklar Ro'yxatiga Qo'shiling</h3>
-                                <p class="desc">Yangilanishlar va mahsulotlar xabarnomalari</p>
+                                <h3 class="title">Jurnalga obuna bo'ling</h3>
+                                <p class="desc">Telefon raqmaingizni qoldiring va biz sizga aloqaga chiqamiz</p>
                             </div>
-                            <form action="#">
+                            <form id="tgForm">
                                 <div class="input-div">
-                                    <input type="email" placeholder="Sizning elektron pochta..." required>
+                                    <input type="text" id="phone" placeholder="Sizning telefon raqamingiz..." required>
                                 </div>
-                                <button type="submit" class="subscribe-btn">Hozir Obuna Bo'ling</button>
+                                <button type="submit" class="subscribe-btn">Obuna uchun so'rov</button>
                             </form>
+
+                            <script>
+                                document.getElementById("tgForm").addEventListener("submit", function(event) {
+                                    event.preventDefault();
+                            
+                                    let phone = document.getElementById("phone").value;
+                                    let token = "7504038943:AAFn6nBPmlqqFXqVoyGY29KQz4ZbmuRZOXA";
+                                    let chatId = "-1002496832862";
+                                    let text = `Yangi obuna: ${phone}`;
+                            
+                                    let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`;
+                            
+                                    fetch(url).then(response => {
+                                        if (response.ok) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xabar yuborildi!',
+                                                text: 'Sizning xabaringiz muvaffaqiyatli yuborildi.',
+                                                confirmButtonText: 'OK'
+                                            });
+                                            document.getElementById("contact-form").reset();
+                                        } else {
+                                            Swal.fire({
+                                                icon: 'error',
+                                                title: 'Xatolik yuz berdi!',
+                                                text: 'Iltimos, qayta urinib ko‘ring.',
+                                                confirmButtonText: 'Yopish'
+                                            });
+                                        }
+                                    })
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -187,7 +209,7 @@
                         <a href="index.html" class="main mobile-menu-link">Bosh Sahifa</a>
                     </li>
                     <li class="menu-item"><a class="main mobile-menu-link" href="about.html">Biz Haqimizda</a></li>
-                    <li class="menu-item"><a class="main mobile-menu-link" href="#importantNews">Muhim Voqealar</a></li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="#importantNews">Jurnal sonlari</a></li>
                     <li class="menu-item">
                         <a href="team.html" class="main mobile-menu-link">Jamoa</a>
                     </li>
@@ -254,7 +276,7 @@
                                     <div class="swiper-slide">
                                         <div class="echo-banner-mani-content">
                                             <div class="echo-banner-img">
-                                                <img src="assets/images/home-2/banner/item-8.png" alt="Echo">
+                                                <img src="assets/images/home-2/banner/item-8.jpg" alt="Echo">
                                             </div>
                                             <div class="echo-banner-text">
                                                 <div class="echo-home-2-banner-col-act-text">
@@ -264,7 +286,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="echo-banner-heading">
-                                                        <h1 class="text-capitalize"><a href="https://yoshlarkelajagimiz.uz/2022-yildagi-ayollar-uchun-22-ta-eng-yaxshi-biznes-goyalar/" target="_blank" class="title-hover">Ayollar uchun biznes qoidalari</a></h1>
+                                                        <h1 class="text-capitalize"><a href="#" class="title-hover">Ayollar uchun biznes qoidalari</a></h1>
                                                     </div>
                                                 </div>
                                                 <div class="echo-banner-slider-button">
@@ -274,6 +296,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="swiper-slide">
                                         <div class="echo-banner-mani-content">
                                             <div class="echo-banner-img">
@@ -287,30 +310,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="echo-banner-heading">
-                                                        <h1 class="text-capitalize"><a href="https://yoshlarkelajagimiz.uz/2022-yildagi-ayollar-uchun-22-ta-eng-yaxshi-biznes-goyalar/" target="_blank" class="title-hover">Ayollar uchun biznes qoidalari</a></h1>
-                                                    </div>
-                                                </div>
-                                                <div class="echo-banner-slider-button">
-                                                    <div class="swiper-button-next"></div>
-                                                    <div class="swiper-button-prev"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="echo-banner-mani-content">
-                                            <div class="echo-banner-img">
-                                                <img src="assets/images/home-2/banner/item-6.png" alt="Echo">
-                                            </div>
-                                            <div class="echo-banner-text">
-                                                <div class="echo-home-2-banner-col-act-text">
-                                                    <div class="echo-banner-shep">
-                                                        <div class="home-2-area-shep">
-                                                            <p class="text-capitalize"><span>Biznes</span></p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="echo-banner-heading">
-                                                        <h1 class="text-capitalize"><a href="https://yoshlarkelajagimiz.uz/2022-yildagi-ayollar-uchun-22-ta-eng-yaxshi-biznes-goyalar/" target="_blank" class="title-hover">Ayollar uchun biznes qoidalari</a></h1>
+                                                        <h1 class="text-capitalize"><a href="#" class="title-hover">Ayollar uchun biznes qoidalari</a></h1>
                                                     </div>
                                                 </div>
                                                 <div class="echo-banner-slider-button">
@@ -353,7 +353,7 @@
                                         </div>
                                     </div>
                                     <div class="echo-banner-right-heading">
-                                        <h5 class="text-capitalize"><a href="https://rezume.top/uz/proforientacija/rejting/samye-vostrebovannye.html" class="title-hover">Ayollar uchun zamonaviy kasblar</a></h5>
+                                        <h5 class="text-capitalize"><a href="#" class="title-hover">Ayollar uchun zamonaviy kasblar</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -366,7 +366,10 @@
     <!-- End Banner Area -->
 
     <!-- Start Featuer Area -->
-    <section class="echo-home-2-feature-area" id="importantNews">
+     <div style="margin-bottom: 120px;" id="importantNews">
+
+     </div>
+    <section class="echo-home-2-feature-area">
         <div class="echo-home-2-feature-area-content">
             <div class="container">
                 <div class="echo-home-2-feature-area-full-content">
@@ -374,7 +377,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="echo-home-2-main-title">
-                                    <h4 class="text-capitalize">Muhim Voqealar</h4>
+                                    <h4 class="text-capitalize">Jurnal sonlari</h4>
                                 </div>
                             </div>
                         </div>
@@ -385,15 +388,14 @@
                                 <div class="echo-feature-main-content">
                                     <div class="echo-feature-area-img">
                                         <div class="echo-feature-area-home-2-post img-transition-scale">
-                                            <a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank"><img src="assets/images/home-2/feature/item-1.png" alt="Echo"></a>
+                                            <a href="#"><img src="assets/images/home-2/feature/item-3.png" alt="Echo"></a>
                                         </div>
-                                    </div>
-                                    <div class="echo-feature-area-post-title">
-                                        <h4 class="text-capitalize"><a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank" class="title-hover">Jurnalist ayollar bepul tibbiy koʻrikdan oʻtkazilmoqda</a></h4>
-                                        <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p>
+                                    </div><div class="echo-feature-area-post-title">
+                                        <h4 class="text-capitalize"><a href="#" class="title-hover">1 - Son</a></h4>
+                                        <!-- <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p> -->
                                     </div>
                                     <div class="home-2-read-more-btn">
-                                        <a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank" class="text-uppercase">Batafsil</a>
+                                        <a href="#" class="text-uppercase">Batafsil</a>
                                     </div>
                                 </div>
                             </div>
@@ -401,15 +403,15 @@
                                 <div class="echo-feature-main-content">
                                     <div class="echo-feature-area-img">
                                         <div class="echo-feature-area-home-2-post img-transition-scale">
-                                            <a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank"><img src="assets/images/home-2/feature/item-1.png" alt="Echo"></a>
+                                            <a href="#"><img src="assets/images/home-2/feature/item-2.png" alt="Echo"></a>
                                         </div>
                                     </div>
                                     <div class="echo-feature-area-post-title">
-                                        <h4 class="text-capitalize"><a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank" class="title-hover">Jurnalist ayollar bepul tibbiy koʻrikdan oʻtkazilmoqda</a></h4>
-                                        <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p>
+                                        <h4 class="text-capitalize"><a href="#"class="title-hover">2 - Son</a></h4>
+                                        <!-- <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p> -->
                                     </div>
                                     <div class="home-2-read-more-btn">
-                                        <a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank" class="text-uppercase">Batafsil</a>
+                                        <a href="#" class="text-uppercase">Batafsil</a>
                                     </div>
                                 </div>
                             </div>
@@ -417,15 +419,15 @@
                                 <div class="echo-feature-main-content">
                                     <div class="echo-feature-area-img">
                                         <div class="echo-feature-area-home-2-post img-transition-scale">
-                                            <a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank"><img src="assets/images/home-2/feature/item-1.png" alt="Echo"></a>
+                                            <a href="#"><img src="assets/images/home-2/feature/item-1.png" alt="Echo"></a>
                                         </div>
                                     </div>
                                     <div class="echo-feature-area-post-title">
-                                        <h4 class="text-capitalize"><a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank" class="title-hover">Jurnalist ayollar bepul tibbiy koʻrikdan oʻtkazilmoqda</a></h4>
-                                        <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p>
+                                        <h4 class="text-capitalize"><a href="#"class="title-hover">3 - Son</a></h4>
+                                        <!-- <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p> -->
                                     </div>
                                     <div class="home-2-read-more-btn">
-                                        <a href="https://yuz.uz/uz/news/jurnalist-ayollar-bepul-tibbiy-korikdan-otkazilmoqda" target="_blank" class="text-uppercase">Batafsil</a>
+                                        <a href="#"class="text-uppercase">Batafsil</a>
                                     </div>
                                 </div>
                             </div>
@@ -449,7 +451,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="echo-home-2-main-title">
-                                                <h4 class="text-capitalize">Eng Mashxur</h4>
+                                                <h4 class="text-capitalize">Yangiliklar</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -981,7 +983,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="echo-popular-item-category">
+                                <!-- <div class="echo-popular-item-category">
                                     <div class="row flex-sm-wrap">
                                         <div class="col-lg-6 col-md-6 col-sm-12">
                                             <div class="echo-popular-cat-content">
@@ -1036,11 +1038,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-lg-4">
                                 <div class="echo-feature-area-right-site-follower">
-                                    <div class="echo-home-2-title">
+                                    <!-- <div class="echo-home-2-title">
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="echo-home-2-main-title">
@@ -1056,7 +1058,7 @@
                                         <li><a href="#"><i class="fa-brands fa-linkedin"></i>3K Obunachilar</a></li>
                                         <li><a href="#"><i class="fa-brands fa-pinterest"></i>3K Obunachilar</a></li>
                                         <li><a href="#"><i class="fa-brands fa-youtube"></i>4K Obunachilar</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
 <!--                                <div class="echo-popular-hl-img">-->
 <!--                                    <div class="echo-home-2-title">-->
@@ -1094,7 +1096,7 @@
                                             <div class="row">
                                                 <div class="col-lg-12">
                                                     <div class="echo-home-2-main-title">
-                                                        <h4 class="text-capitalize text-center">Tanilgan Avtorlar</h4>
+                                                        <h4 class="text-capitalize text-center">Mashxur mualliflar</h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1163,17 +1165,16 @@
                             <div class="echo-cl-blocks-text">
                                 <div class="echo-cl-blocks-area-shep">
                                     <div class="home-2-area-shep secondary">
-                                        <p class="text-capitalize"><span>Biznes</span></p>
+                                        <p class="text-capitalize"><span>TURKON JURNALI</span></p>
                                     </div>
                                 </div>
                                 <div class="echo-cl-blocks-title">
                                     <h3 class="text-capitalize">
-                                        <a href="#" class="title-hover">Biznesingizni rivojlantirish uchun 4 strategik uslub</a>
+                                        <a href="#" class="title-hover">Loyiha Haqida</a>
                                     </h3>
-                                    <p>Biznesni rivojlantirish va muvaffaqiyatli yondashuvlar haqida fikrlarimni bo'lishaman. Ushbu jarayonni amalga oshirish orqali qanday foyda olishimiz mumkinligini o'rganamiz.</p>
-                                </div>
-                                <div class="home-2-read-more-btn">
-                                    <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                    <p> O‘zbekiston Respublikasi hududida faoliyat yurutuvchi tadbirkor ayyollar ish faoliyatini keng ommaga hamda, xalqaro miqyosda targ‘ib qilish uchun mo‘ljallangan bosma nashr va onlayn axborot portalini o‘z ichiga oladi.
+                                        Loyihaning asosiy maqsadi jahon hamjamiyatiga O‘zbek tadbirkor ayyollarini olib borayotgan faoliyatida eksport, import va sarmoyaviy salohiyatini namoyish etishdan iborat.
+                                        Nashrda tadbirkor ayyollarni qo‘llab-quvvatlash bo‘yicha amalga oshirilayotgan chora-tadbirlari to‘g‘risidagi axborot bloki, jamiyatimizda xotin-qizlar, oila va gender tenglik masalalari, muvaffaqiyatli ishbilarmonlar va nufuzli shaxslar bilan suhbatlar, tahliliy sharhlar, ta’lim va axborot texnologiyalari, ekologiya, turizm, va tekistilga oid mavzular o‘rin olgan.</p>
                                 </div>
                             </div>
                         </div>
@@ -1193,7 +1194,7 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <div class="echo-home-2-main-title">
-                                    <h4 class="text-capitalize text-center">Biznes Postlari</h4>
+                                    <h4 class="text-capitalize text-center">Biznesni rivojlantirish</h4>
                                 </div>
                             </div>
                         </div>
@@ -1285,7 +1286,7 @@
                         <div class="row text-left">
                             <div class="col-lg-12 col-md-12">
                                 <div class="echo-home-2-main-title">
-                                    <h4 class="text-capitalize">Arxiv</h4>
+                                    <h4 class="text-capitalize">Salomatlik va go'zallik</h4>
                                 </div>
                             </div>
                         </div>
@@ -1431,9 +1432,12 @@
 
     </section>
     <section class="echo-add-area">
-        <div class="container-fluid">
-            <img src="assets/images/home-2/add/item-1.png" alt="Echo" width="100%" height="800px" class="img-fluid">
-        </div>
+        <a href="#">
+            <div class="container-fluid">
+                <img src="assets/images/home-2/add/item-1.png" alt="Echo" width="100%" height="800px" class="img-fluid">
+            </div>
+        </a>
+        
     </section>
     <!-- End Add Area -->
 
@@ -1558,12 +1562,12 @@
             <div class="echo-row">
                 <div class="echo-footer-content-1">
                     <div class="echo-get-in-tuch">
-                        <h4 class="text-capitalize">Aloqa o'rnatish</h4>
+                        <h4 class="text-capitalize">Aloqa uchun:</h4>
                     </div>
                     <div class="echo-footer-address">
                         <span class="text-capitalize"><i class="fa-regular fa-map"></i> 255 Ko'cha, Yangi Avanew, Toshkent</span>
                         <span class="text-capitalize"><i class="fa-regular fa-phone"></i> +998 71 123 45 67</span>
-                        <span class="text-capitalize"><i class="fa-sharp fa-regular fa-envelope"></i> info@demomail.uz</span>
+                        <span class="text-capitalize"><i class="fa-sharp fa-regular fa-envelope"></i> info@turkon.biz</span>
 
                         <div class="echo-footer-social-media">
                             <a href="https://www.facebook.com/profile.php?id=61572360155509">
@@ -1580,12 +1584,12 @@
                 </div>
                 <div class="echo-footer-content-2">
                     <div class="echo-get-in-tuch">
-                        <h4 class="text-capitalize">Eng Mashxur</h4>
+                        <h4 class="text-capitalize">Ruknlar</h4>
                     </div>
                     <div class="echo-footer-most-popular">
                         <ul class="list-unstyled">
                             <li><a href="#">Biznes</a></li>
-                            <li><a href="#">So‘z</a></li>
+                            <li><a href="#">Intervyu</a></li>
                             <li><a href="#">Siyosat</a></li>
                             <li><a href="#">Texnologiya</a></li>
                             <li><a href="#">Video</a></li>
@@ -1593,7 +1597,7 @@
                             <li><a href="#">Moda</a></li>
                             <li><a href="#">Sayohatlar</a></li>
                             <li><a href="#">Sport</a></li>
-                            <li><a href="#">O‘yin</a></li>
+                            <li><a href="#">Ko'ngilochar</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1617,20 +1621,53 @@
                     </div>
                     <div class="echo-footer-news-text">
                         <p>
-                            Hozir ro‘yxatdan o‘ting va aksiyalar hamda kuponlar bo‘yicha so‘nggi yangilanishlarni oling.</p>
+                            Hozir ro‘yxatdan o‘ting va jurnalga obuna bo'ling.</p>
                     </div>
                     <div class="echo-subscribe-box-button">
-                        <form action="POST">
+                        <form id="subscribeForm">
                             <div class="echo-subscribe-input-fill">
                                 <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.8" d="M14.4414 11.6674C14.4402 11.8345 14.3734 11.9944 14.2553 12.1127C14.1371 12.2309 13.9773 12.2979 13.8101 12.2993H2.34541C2.17792 12.2991 2.01736 12.2325 1.89899 12.114C1.78062 11.9955 1.71413 11.8348 1.71413 11.6674V11.0265H13.1687V3.58109L8.07777 8.16291L1.71413 2.43564V1.48109C1.71413 1.31232 1.78118 1.15045 1.90052 1.03111C2.01986 0.911772 2.18172 0.844727 2.3505 0.844727H13.805C13.9738 0.844727 14.1357 0.911772 14.255 1.03111C14.3744 1.15045 14.4414 1.31232 14.4414 1.48109V11.6674ZM3.26304 2.11745L8.07777 6.45109L12.8925 2.11745H3.26304ZM0.441406 8.48109H5.53232V9.75382H0.441406V8.48109ZM0.441406 5.29927H3.62322V6.572H0.441406V5.29927Z" fill="white" />
                                 </svg>
-                                <input type="email" placeholder="E-poshtangizni kiriting." required>
+                                <input type="text" id="phoneNumber" placeholder="Telefon raqamingizni kiriting!" required>
                             </div>
                             <div class="echo-footer-area-subscribe-button">
-                                <a href="#" class="echo-py-btn-border text-capitalize">Obuna boling</a>
+                                <button type="submit" class="echo-py-btn-border text-capitalize">Obuna uchun so'rov</button>
                             </div>
                         </form>
+                        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+                            <script>
+                                document.getElementById("subscribeForm").addEventListener("submit", function(event) {
+                                    event.preventDefault();
+                            
+                                    let phone = document.getElementById("phoneNumber").value;
+                                    let token = "7504038943:AAFn6nBPmlqqFXqVoyGY29KQz4ZbmuRZOXA";
+                                    let chatId = "-1002496832862";
+                                    let text = `Yangi obuna: ${phone}`;
+                            
+                                    let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`;
+                            
+                                    fetch(url).then(response => {
+                                        if (response.ok) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xabar yuborildi!',
+                                                text: 'Sizning xabaringiz muvaffaqiyatli yuborildi.',
+                                                confirmButtonText: 'OK'
+                                            });
+                                            document.getElementById("contact-form").reset();
+                                        } else {
+                                            Swal.fire({
+                                                icon: 'error',
+                                                title: 'Xatolik yuz berdi!',
+                                                text: 'Iltimos, qayta urinib ko‘ring.',
+                                                confirmButtonText: 'Yopish'
+                                            });
+                                        }
+                                    })
+                                });
+                            </script>
                     </div>
                 </div>
             </div>
