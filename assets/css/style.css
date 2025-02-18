@@ -20325,7 +20325,6 @@ html[data-theme=dark] .echo-header-area.header-seven .echo-home-2-menu .echo-sit
 }
 .echo-home-2-feature-area .echo-feature-content .echo-feature-main-content .echo-feature-area-img .echo-feature-area-home-2-post a img {
   width: 100%;
-  height: 400px;
 }
 .echo-home-2-feature-area .echo-feature-content .echo-feature-main-content .echo-feature-area-img .echo-feature-area-shep {
   position: absolute;
@@ -31794,6 +31793,7 @@ html[data-theme=dark] body.home-two .echo-footer-area.footer-2 .echo-get-in-tuch
 
   .echo-archive-area .echo-archive-area-content .echo-archive-area-full-content .echo-archive-area-slider-content .echo-banner-mani-content .echo-banner-img > img {
     width: 100%;
+    height: 560px;
   }
 
   .echo-archive-main-content.area-2 {
@@ -31982,6 +31982,7 @@ html[data-theme=dark] body.home-two .echo-footer-area.footer-2 .echo-get-in-tuch
 
   .echo-banner .echo-banner-mani-content .echo-banner-img > img {
     width: 100%;
+    height: 560px;
   }
 
   .echo-home-2-banner-right-flexing {
@@ -32474,6 +32475,7 @@ html[data-theme=dark] body.home-two .echo-footer-area.footer-2 .echo-get-in-tuch
 
   .echo-archive-area .echo-archive-area-content .echo-archive-area-full-content .echo-archive-area-slider-content .echo-banner-mani-content .echo-banner-img > img {
     width: 100%;
+    height: 560px;
   }
 
   .echo-archive-main-content.area-2 {
