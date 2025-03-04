@@ -25932,8 +25932,8 @@ html[data-theme=dark] .echo-header-area.header-seven .echo-home-2-menu .echo-sit
 .echo-banner .echo-banner-right-itme .echo-banar-right-img .echo-banner-shep {
   position: absolute;
   bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
 }
 .echo-banner .echo-banner-right-itme .echo-banner-right-heading {
   margin-top: 25px;

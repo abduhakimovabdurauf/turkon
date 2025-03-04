@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladies & Biznes</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+
+    <link rel="stylesheet preload" href="assets/css/plugins/fontawesome-5.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/bootstrap.min.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/swiper.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/metismenu.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/magnific-popup.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/style.css" as="style">
+</head>
+
+<body class="home-two">
+    <!-- Start Top Header Area -->
+    <!-- Start Top Header Area -->
+    <header class="echo-header-area header-two">
+        <div class="echo-header-top-home-2">
+            <div class="container">
+                <div class="echo-full-header-top">
+                    <div class="home-2-row">
+                        <div class="home-2-social">
+                            <div class="echo-meta-total-jobs home-2-header">
+                                <ul class="list-unstyled">
+                                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61572360155509"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a target="_blank" href="https://t.me/Turkon_busness"><i class="fa-brands fa-telegram"></i></a></li>
+                                    <li><a target="_blank" href="https://www.instagram.com/turkonuz/?igsh=Mjg4amN4aDVyNG1y#"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="home-2-logo">
+                            <div class="echo-header-home-2-logo">
+                                <a href="index.html">
+                                    <img src="assets/images/home-2/logo/logo.png" alt="Echo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="home-2-card-etc">
+                            <div class="echo-header-top-subs-social-menu-home-2">
+                                <div class="echo-home-2-right-site-itme">
+                                    <div class="echo-header-top-social-media">
+<!--                                        <div class="rts-darkmode">-->
+<!--                                            <a id="rts-data-toggle" class="rts-dark-light">-->
+<!--                                                <i class="rts-go-dark fal fa-moon"></i>-->
+<!--                                                <i class="rts-go-light fa-solid fa-sun"></i>-->
+<!--                                                -->
+<!--                                            </a>-->
+<!--                                        </div>-->
+                                        <div class="echo-search home-2-menu-after">
+                                            <div class="search-input-area">
+                                                <div class="container">
+                                                    <div class="search-input-inner">
+                                                        <div class="input-div">
+                                                            <input id="searchInput1" class="search-input" type="text" placeholder="Search by keyword or #">
+                                                        </div>
+                                                        <div class="search-close-icon"><i class="fa-regular fa-xmark-large rt-xmark"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-header-top-menu-bar echo-off-canvas menu-btn">
+                                        <a href="javascript:void(0)">
+                                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.526001 0.953461H20V3.11724H0.526001V0.953461ZM7.01733 8.52668H20V10.6905H7.01733V8.52668ZM0.526001 16.0999H20V18.2637H0.526001V16.0999Z" fill="#5E5E5E" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Home-1 Menu & Site Logo & Social Media -->
+        <div class="echo-home-2-menu header-two">
+            <div class="echo-site-main-logo-menu-social">
+                <div class="container">
+                    <div class="echo-home-2-menu-full-contetn">
+                        <div class="row align-items-center">
+                            <div class="col-xl-8 col-lg-8 col-9">
+                                <div class="echo-header-left">
+                                    <nav>
+                                        <div class="echo-home-1-menu">
+                                            <ul class="list-unstyled echo-desktop-menu">
+                                                <li class="menu-item">
+                                                    <a href="index.html" class="echo-dropdown-main-element active">Bosh Sahifa</a>
+                                                </li>
+                                                <li class="menu-item"><a class="echo-dropdown-main-element active" href="index.html#importantNews">Jurnal sonlari</a></li>
+                                                <li class="menu-item"><a class="echo-dropdown-main-element active" href="index.html#news">Yangiliklar</a></li>
+                                                <li class="menu-item"><a class="echo-dropdown-main-element active" href="index.html#cooperation">Hamkorlik</a></li>
+                                                <li class="menu-item"><a class="echo-dropdown-main-element active" href="index.html#businessPossibilities">Biznes imkoniyatlari</a></li>
+                                                <li class="menu-item"><a href="contact.html" class="echo-dropdown-main-element active">Boglanish</a></li>
+                                                <li class="menu-item">
+                                                    <a href="team.html" class="echo-dropdown-main-element active">Jamoa</a>
+                                                </li>
+                                            </ul>
+                                            <!-- main mobile-menu-link -->
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-3 sticky-menu-bar">
+                                <div class="echo-header-top-menu-bar echo-off-canvas menu-btn">
+                                    <a href="javascript:void(0)">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.526001 0.953461H20V3.11724H0.526001V0.953461ZM7.01733 8.52668H20V10.6905H7.01733V8.52668ZM0.526001 16.0999H20V18.2637H0.526001V16.0999Z" fill="#5E5E5E" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Home-1 Menu & Site Logo & Social Media -->
+    </header>
+
+    <!-- End Top Header Area -->
+
+    <!-- side bar for desktop -->
+    <div id="side-bar" class="side-bar header-one">
+        <div class="inner">
+<!--            <button class="close-icon-menu"><i class="far fa-times"></i></button>-->
+            <div class="inner-main-wrapper-desk d-none d-lg-block">
+                <div class="thumbnail">
+                    <img src="assets/images/home-2/logo/logo.png" alt="echo">
+                    <div class="sidebar-social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=61572360155509" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://t.me/Turkon_busness" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a href="https://www.instagram.com/turkonuz/?igsh=Mjg4amN4aDVyNG1y#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="echo-cl-blocks-title">
+                    <!-- <h3 class="text-capitalize">
+                        <a href="#" class="title-hover">Loyiha Haqida</a>
+                    </h3> -->
+                    <p> O‘zbekiston Respublikasi hududida faoliyat yurutuvchi tadbirkor ayyollar ish faoliyatini keng ommaga hamda, xalqaro miqyosda targ‘ib qilish uchun mo‘ljallangan bosma nashr va onlayn axborot portalini o‘z ichiga oladi.</p>
+                </div>
+
+                <div class="inner-content">
+                    <div class="newsletter-form">
+                        <div class="form-inner">
+                            <div class="content">
+                                <div class="newsletter-image">
+                                    <img src="assets/images/home-1/feature-right/news-item-1.png" alt="">
+                                </div>
+                                <h3 class="title">Jurnalga obuna bo'ling</h3>
+                                <p class="desc">Telefon raqmaingizni qoldiring va biz sizga aloqaga chiqamiz</p>
+                            </div>
+                            <form id="tgForm">
+                                <div class="input-div">
+                                    <input type="text" id="phone" placeholder="Sizning telefon raqamingiz..." required>
+                                </div>
+                                <button type="submit" class="subscribe-btn">Obuna uchun so'rov</button>
+                            </form>
+
+                            <script>
+                                document.getElementById("tgForm").addEventListener("submit", function(event) {
+                                    event.preventDefault();
+                            
+                                    let phone = document.getElementById("phone").value;
+                                    let token = "7504038943:AAFn6nBPmlqqFXqVoyGY29KQz4ZbmuRZOXA";
+                                    let chatId = "-1002496832862";
+                                    let text = `Yangi obuna: ${phone}`;
+                            
+                                    let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`;
+                            
+                                    fetch(url).then(response => {
+                                        if (response.ok) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xabar yuborildi!',
+                                                text: 'Sizning xabaringiz muvaffaqiyatli yuborildi.',
+                                                confirmButtonText: 'OK'
+                                            });
+                                            document.getElementById("contact-form").reset();
+                                        } else {
+                                            Swal.fire({
+                                                icon: 'error',
+                                                title: 'Xatolik yuz berdi!',
+                                                text: 'Iltimos, qayta urinib ko‘ring.',
+                                                confirmButtonText: 'Yopish'
+                                            });
+                                        }
+                                    })
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- mobile menu area start -->
+        <div class="mobile-menu d-block d-lg-none">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="main-menu" id="mobile-menu-active">
+                    <li class="menu-item">
+                        <a href="index.html" class="main mobile-menu-link">Bosh Sahifa</a>
+                    </li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="about.html">Biz Haqimizda</a></li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="index.html#importantNews">Jurnal sonlari</a></li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="index.html#news">Yangiliklar</a></li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="index.html#cooperation">Hamkorlik</a></li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="index.html#businessPossibilities">Biznes imkoniyatlari</a></li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="contact.html">Boglanish</a></li>
+                    <li class="menu-item">
+                        <a href="team.html" class="main mobile-menu-link">Jamoa</a>
+                    </li>
+                </ul>
+            </nav>
+<!--            businessPossibilities-->
+            <div class="social-wrapper-one">
+                <ul>
+                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61572360155509"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a target="_blank" href="https://t.me/Turkon_busness"><i class="fa-brands fa-telegram"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/turkonuz/?igsh=Mjg4amN4aDVyNG1y#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+    <!-- Start Subscribe Popup Box -->
+    <div class="echo-popup-model" id="id01">
+        <div class="echo-popup-transition">
+            <div class="model-content animate-subscribe-popup">
+                <a href="javascript:void(0)" onclick="document.getElementById('id01').style.display='none'"><i class="fa-regular fa-xmark"></i></a>
+                <div class="echo-p-flexing">
+                    <div class="echo-p-img">
+                        <img src="assets/images/home-1/feature-right/news-item-1.png" alt="Echo">
+                    </div>
+                    <div class="form">
+                        <div class="echo-p-sub-heading">
+                            <p>Haftalik Yangiliklar</p>
+                        </div>
+                        <div class="echo-p-sub-heading">
+                            <h3>Bizning yangiliklar ro'yxatiga qo'shiling!</h3>
+                        </div>
+                        <form method="POST">
+                            <input type="email" required placeholder="Elektron pochtangizni kiriting..">
+                            <button type="submit">Yuborish</button>
+                        </form>
+                        <div class="echo-bottom-popup">
+                            <p>Qayg'urmang, biz spam yubormaymiz!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Subscribe Popup Box -->
+    <!-- End Top Header Area -->
+
+    <!-- Start Banner Area -->
+    <section class="echo-banner">
+        <div class="echo-banner-content">
+            <div class="container">
+                <div class="echo-banner-full-content">
+                    <div class="row gx-5 justify-content-md-center">
+                        <div class="col-xl-9 col-lg-8 col-md-12">
+                            <div class="swiper rts-bannerSlider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="echo-banner-mani-content">
+                                            <div class="echo-banner-img">
+                                                <img src="assets/images/home-2/banner/item-8.jpg" alt="Echo">
+                                            </div>
+                                            <div class="echo-banner-text">
+                                                <div class="echo-home-2-banner-col-act-text">
+                                                    <div class="echo-banner-heading">
+                                                        <h1 class="text-capitalize"><a href="#" class="title-hover">Turkon - Ayollar jurnali</a></h1>
+                                                    </div>
+                                                </div>
+                                                <div class="echo-banner-slider-button">
+                                                    <div class="swiper-button-next"></div>
+                                                    <div class="swiper-button-prev"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="echo-banner-mani-content">
+                                            <div class="echo-banner-img">
+                                                <img src="assets/images/home-2/banner/item-7.png" alt="Echo">
+                                            </div>
+                                            <div class="echo-banner-text">
+                                                <div class="echo-home-2-banner-col-act-text">
+                                                    <div class="echo-banner-heading">
+                                                        <h1 class="text-capitalize"><a href="#" class="title-hover">Turkon - Ayollar jurnali</a></h1>
+                                                    </div>
+                                                </div>
+                                                <div class="echo-banner-slider-button">
+                                                    <div class="swiper-button-next"></div>
+                                                    <div class="swiper-button-prev"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-8">
+                            <div class="echo-home-2-banner-right-flexing">
+                                <div class="echo-banner-right-itme">
+                                    <div class="echo-banar-right-img">
+                                        <div class="echo-banar-right-img-content img-transition-scale">
+                                            <a href="#"><img src="assets/images/home-2/banner/item-2.png" alt="Echo"></a>
+                                        </div>
+                                        <div class="echo-banner-shep">
+                                            <div class="home-2-area-shep">
+                                                <p class="text-capitalize"><span>Ijtimoiy psixologiya</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-banner-right-heading">
+                                        <h5 class="text-capitalize"><a href="#" class="title-hover">Stereotiplarni Sindirib, O‘z O‘rningni Topish</a></h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="echo-banner-right-itme">
+                                    <div class="echo-banar-right-img">
+                                        <div class="echo-banar-right-img-content img-transition-scale">
+                                            <a href="#"><img src="assets/images/home-2/banner/item-3.png" alt="Turkon"></a>
+                                        </div>
+                                        <div class="echo-banner-shep">
+                                            <div class="home-2-area-shep secondary">
+                                                <p class="text-capitalize"><span>Kasb</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-banner-right-heading">
+                                        <h5 class="text-capitalize"><a href="#" class="title-hover">Rahbarlikka Yo‘l: Bosib O‘tilgan Izlar</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!-- Start Featuer Area -->
+     <div style="margin-bottom: 120px;" id="importantNews">
+
+     </div>
+    <section class="echo-home-2-feature-area">
+        <div class="echo-home-2-feature-area-content">
+            <div class="container">
+                <div class="echo-home-2-feature-area-full-content">
+                    <div class="echo-home-2-title">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="echo-home-2-main-title">
+                                    <h4 class="text-capitalize">Jurnal sonlari</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="echo-feature-content">
+                        <div class="row gx-5">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="echo-feature-main-content">
+                                    <div class="echo-feature-area-img">
+                                        <div class="echo-feature-area-home-2-post img-transition-scale">
+                                            <a href="#"><img src="assets/images/home-2/feature/item-3.png" alt="Echo"></a>
+                                        </div>
+                                    </div><div class="echo-feature-area-post-title">
+                                        <h4 class="text-capitalize"><a href="#" class="title-hover">Ayollar va Yoshlar Uchun Imkoniyatlar</a></h4>
+                                        <!-- <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p> -->
+                                    </div>
+                                    <div class="home-2-read-more-btn">
+                                        <a href="#" class="text-uppercase">Batafsil</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="echo-feature-main-content">
+                                    <div class="echo-feature-area-img">
+                                        <div class="echo-feature-area-home-2-post img-transition-scale">
+                                            <a href="#"><img src="assets/images/home-2/feature/item-2.png" alt="Echo"></a>
+                                        </div>
+                                    </div>
+                                    <div class="echo-feature-area-post-title">
+                                        <h4 class="text-capitalize"><a href="#"class="title-hover">"Men kuchli ayolman" loyihasining jamiyatdagi ta’siri qanday?</a></h4>
+                                          <!-- <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p> -->
+                                    </div>
+                                    <div class="home-2-read-more-btn">
+                                        <a href="#" class="text-uppercase">Batafsil</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="echo-feature-main-content">
+                                    <div class="echo-feature-area-img">
+                                        <div class="echo-feature-area-home-2-post img-transition-scale">
+                                            <a href="#"><img src="assets/images/home-2/feature/item-1.png" alt="Echo"></a>
+                                        </div>
+                                    </div>
+                                    <div class="echo-feature-area-post-title">
+                                        <h4 class="text-capitalize"><a href="#"class="title-hover">“Turkon” loyihasining ayollarga taqdim etayotgan yangi imkoniyatlari</a></h4>
+                                        <!-- <p>Sogʻliqni saqlash vazirligi va boshqa tashkilotlar hamkorligida jurnalist ayollarni ko‘krak bezi saratonining erta diagnostikasi uchun bepul tibbiy koʻrikdan oʻtkazish aksiyasi tashkil etildi.</p> -->
+                                    </div>
+                                    <div class="home-2-read-more-btn">
+                                        <a href="#"class="text-uppercase">Batafsil</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature Aera -->
+
+    <!-- Start Popular Area -->
+    <section class="echo-popular-area" id="news">
+        <div class="echo-popular-content">
+            <div class="container">
+                <div class="echo-popular-full-content">
+                    <div class="echo-popular-tabing">
+                        <div class="row gx-5">
+                            <div class="col-lg-8">
+                                <div class="echo-home-2-title">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="echo-home-2-main-title">
+                                                <h4 class="text-capitalize">Yangiliklar</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="echo-popular-tabing-btn">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <ul class="echo-popular-tab-button list-unstyled nav nav-tabs" id="myTab" role="tablist">
+                                                <li class="nav-item">
+                                                    <button class="text-uppercase active" data-bs-target="#one" data-bs-toggle="tab" type="button" role="tab" aria-controls="one" aria-selected="true">Hayot Tarzi</button>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <button class="text-uppercase" data-bs-target="#two" data-bs-toggle="tab" type="button" role="tab" aria-controls="two" aria-selected="true">Gozallik</button>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <button class="text-uppercase" data-bs-target="#three" data-bs-toggle="tab" type="button" role="tab" aria-controls="three" aria-selected="true">Moda</button>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <button class="text-uppercase" data-bs-target="#four" data-bs-toggle="tab" type="button" role="tab" aria-controls="four" aria-selected="true">Retseptlar</button>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <button class="text-uppercase" data-bs-target="#seven" data-bs-toggle="tab" type="button" role="tab" aria-controls="seven" aria-selected="true">Munosabatlar</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one" tabindex="0">
+                                        <div class="echo-popular-tabing-item-frist-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-main-item one">
+                                                        <div class="echo-popular-left-img img-transition-scale">
+                                                            <a href="#"><img src="assets/images/home-2/popular-left/item-5.jpg" alt="Echo"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-jt-text two">
+                                                        <div class="echo-popular-area-shep">
+                                                            <div class="home-2-area-shep secondary">
+                                                                <p class="text-capitalize"><span>Hayot</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-jt-heading">
+                                                            <h3 class="text-capitalize"><a href="#" class="title-hover">Jamiyatda o‘z o‘rnini topgan ayol uchun qanday sifatlar zarur?</a></h3>
+<!--                                                            <p>O‘z o‘rnini topgan ayol uchun mustahkam ishonch, qat'iyatlilik, bilim va donolik zarur...</p>-->
+                                                        </div>
+                                                        <div class="home-2-read-more-btn">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="echo-popular-tabing-item-second-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn three">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-6.jpg" alt="Echo"></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep df-orange">
+                                                                    <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Oila – Asosiy Qadriyat</a></h4>
+                                                            <p class="text-center">Davlat ishi, siyosiy faoliyat, jamiyatdagi o‘rnim — bularning barchasi men uchun juda muhim. Lekin shuni unutmayman: men avvalo ayolman, ona va oilaning tayanchiman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn four">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-7.png" alt=""></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep secondary">
+                                                                    <p class="text-capitalize"><span>Hayot</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Mening Asosiy Maslahatlarim</a></h4>
+                                                            <p class="text-center">Men o‘z hayotiy tajribamdan kelib chiqib, yosh qizlarga va barcha ayollarga shunday maslahat beraman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="two" role="tabpanel" aria-labelledby="two" tabindex="0">
+                                        <div class="echo-popular-tabing-item-frist-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-main-item one">
+                                                        <div class="echo-popular-left-img img-transition-scale">
+                                                            <a href="#"><img src="assets/images/home-2/popular-left/item-5.jpg" alt="Echo"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-jt-text two">
+                                                        <div class="echo-popular-area-shep">
+                                                            <div class="home-2-area-shep secondary">
+                                                                <p class="text-capitalize"><span>Hayot</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-jt-heading">
+                                                            <h3 class="text-capitalize"><a href="#" class="title-hover">Jamiyatda o‘z o‘rnini topgan ayol uchun qanday sifatlar zarur?</a></h3>
+                                                            <!--                                                            <p>O‘z o‘rnini topgan ayol uchun mustahkam ishonch, qat'iyatlilik, bilim va donolik zarur...</p>-->
+                                                        </div>
+                                                        <div class="home-2-read-more-btn">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="echo-popular-tabing-item-second-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn three">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-6.jpg" alt="Echo"></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep df-orange">
+                                                                    <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Oila – Asosiy Qadriyat</a></h4>
+                                                            <p class="text-center">Davlat ishi, siyosiy faoliyat, jamiyatdagi o‘rnim — bularning barchasi men uchun juda muhim. Lekin shuni unutmayman: men avvalo ayolman, ona va oilaning tayanchiman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn four">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-7.png" alt=""></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep secondary">
+                                                                    <p class="text-capitalize"><span>Hayot</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Mening Asosiy Maslahatlarim</a></h4>
+                                                            <p class="text-center">Men o‘z hayotiy tajribamdan kelib chiqib, yosh qizlarga va barcha ayollarga shunday maslahat beraman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="three" role="tabpanel" aria-labelledby="three" tabindex="0">
+                                        <div class="echo-popular-tabing-item-frist-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-main-item one">
+                                                        <div class="echo-popular-left-img img-transition-scale">
+                                                            <a href="#"><img src="assets/images/home-2/popular-left/item-5.jpg" alt="Echo"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-jt-text two">
+                                                        <div class="echo-popular-area-shep">
+                                                            <div class="home-2-area-shep secondary">
+                                                                <p class="text-capitalize"><span>Hayot</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-jt-heading">
+                                                            <h3 class="text-capitalize"><a href="#" class="title-hover">Jamiyatda o‘z o‘rnini topgan ayol uchun qanday sifatlar zarur?</a></h3>
+                                                            <!--                                                            <p>O‘z o‘rnini topgan ayol uchun mustahkam ishonch, qat'iyatlilik, bilim va donolik zarur...</p>-->
+                                                        </div>
+                                                        <div class="home-2-read-more-btn">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="echo-popular-tabing-item-second-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn three">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-6.jpg" alt="Echo"></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep df-orange">
+                                                                    <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Oila – Asosiy Qadriyat</a></h4>
+                                                            <p class="text-center">Davlat ishi, siyosiy faoliyat, jamiyatdagi o‘rnim — bularning barchasi men uchun juda muhim. Lekin shuni unutmayman: men avvalo ayolman, ona va oilaning tayanchiman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn four">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-7.png" alt=""></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep secondary">
+                                                                    <p class="text-capitalize"><span>Hayot</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Mening Asosiy Maslahatlarim</a></h4>
+                                                            <p class="text-center">Men o‘z hayotiy tajribamdan kelib chiqib, yosh qizlarga va barcha ayollarga shunday maslahat beraman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show" id="four" role="tabpanel" aria-labelledby="four" tabindex="0">
+                                        <div class="echo-popular-tabing-item-frist-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-main-item one">
+                                                        <div class="echo-popular-left-img img-transition-scale">
+                                                            <a href="#"><img src="assets/images/home-2/popular-left/item-5.jpg" alt="Echo"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-jt-text two">
+                                                        <div class="echo-popular-area-shep">
+                                                            <div class="home-2-area-shep secondary">
+                                                                <p class="text-capitalize"><span>Hayot</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-jt-heading">
+                                                            <h3 class="text-capitalize"><a href="#" class="title-hover">Jamiyatda o‘z o‘rnini topgan ayol uchun qanday sifatlar zarur?</a></h3>
+                                                            <!--                                                            <p>O‘z o‘rnini topgan ayol uchun mustahkam ishonch, qat'iyatlilik, bilim va donolik zarur...</p>-->
+                                                        </div>
+                                                        <div class="home-2-read-more-btn">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="echo-popular-tabing-item-second-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn three">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-6.jpg" alt="Echo"></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep df-orange">
+                                                                    <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Oila – Asosiy Qadriyat</a></h4>
+                                                            <p class="text-center">Davlat ishi, siyosiy faoliyat, jamiyatdagi o‘rnim — bularning barchasi men uchun juda muhim. Lekin shuni unutmayman: men avvalo ayolman, ona va oilaning tayanchiman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn four">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-7.png" alt=""></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep secondary">
+                                                                    <p class="text-capitalize"><span>Hayot</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Mening Asosiy Maslahatlarim</a></h4>
+                                                            <p class="text-center">Men o‘z hayotiy tajribamdan kelib chiqib, yosh qizlarga va barcha ayollarga shunday maslahat beraman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show" id="five" role="tabpanel" aria-labelledby="five" tabindex="0">
+                                        <div class="echo-popular-tabing-item-frist-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-main-item one">
+                                                        <div class="echo-popular-left-img img-transition-scale">
+                                                            <a href="#"><img src="assets/images/home-2/popular-left/item-5.jpg" alt="Echo"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-jt-text two">
+                                                        <div class="echo-popular-area-shep">
+                                                            <div class="home-2-area-shep secondary">
+                                                                <p class="text-capitalize"><span>Hayot</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-jt-heading">
+                                                            <h3 class="text-capitalize"><a href="#" class="title-hover">Jamiyatda o‘z o‘rnini topgan ayol uchun qanday sifatlar zarur?</a></h3>
+                                                            <!--                                                            <p>O‘z o‘rnini topgan ayol uchun mustahkam ishonch, qat'iyatlilik, bilim va donolik zarur...</p>-->
+                                                        </div>
+                                                        <div class="home-2-read-more-btn">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="echo-popular-tabing-item-second-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn three">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-6.jpg" alt="Echo"></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep df-orange">
+                                                                    <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Oila – Asosiy Qadriyat</a></h4>
+                                                            <p class="text-center">Davlat ishi, siyosiy faoliyat, jamiyatdagi o‘rnim — bularning barchasi men uchun juda muhim. Lekin shuni unutmayman: men avvalo ayolman, ona va oilaning tayanchiman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn four">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-7.png" alt=""></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep secondary">
+                                                                    <p class="text-capitalize"><span>Hayot</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Mening Asosiy Maslahatlarim</a></h4>
+                                                            <p class="text-center">Men o‘z hayotiy tajribamdan kelib chiqib, yosh qizlarga va barcha ayollarga shunday maslahat beraman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show" id="six" role="tabpanel" aria-labelledby="six" tabindex="0">
+                                        <div class="echo-popular-tabing-item-frist-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-main-item one">
+                                                        <div class="echo-popular-left-img img-transition-scale">
+                                                            <a href="#"><img src="assets/images/home-2/popular-left/item-5.jpg" alt="Echo"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-jt-text two">
+                                                        <div class="echo-popular-area-shep">
+                                                            <div class="home-2-area-shep secondary">
+                                                                <p class="text-capitalize"><span>Hayot</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-jt-heading">
+                                                            <h3 class="text-capitalize"><a href="#" class="title-hover">Jamiyatda o‘z o‘rnini topgan ayol uchun qanday sifatlar zarur?</a></h3>
+                                                            <!--                                                            <p>O‘z o‘rnini topgan ayol uchun mustahkam ishonch, qat'iyatlilik, bilim va donolik zarur...</p>-->
+                                                        </div>
+                                                        <div class="home-2-read-more-btn">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="echo-popular-tabing-item-second-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn three">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-6.jpg" alt="Echo"></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep df-orange">
+                                                                    <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Oila – Asosiy Qadriyat</a></h4>
+                                                            <p class="text-center">Davlat ishi, siyosiy faoliyat, jamiyatdagi o‘rnim — bularning barchasi men uchun juda muhim. Lekin shuni unutmayman: men avvalo ayolman, ona va oilaning tayanchiman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn four">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-7.png" alt=""></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep secondary">
+                                                                    <p class="text-capitalize"><span>Hayot</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Mening Asosiy Maslahatlarim</a></h4>
+                                                            <p class="text-center">Men o‘z hayotiy tajribamdan kelib chiqib, yosh qizlarga va barcha ayollarga shunday maslahat beraman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show" id="seven" role="tabpanel" aria-labelledby="seven" tabindex="0">
+                                        <div class="echo-popular-tabing-item-frist-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-main-item one">
+                                                        <div class="echo-popular-left-img img-transition-scale">
+                                                            <a href="#"><img src="assets/images/home-2/popular-left/item-5.jpg" alt="Echo"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-jt-text two">
+                                                        <div class="echo-popular-area-shep">
+                                                            <div class="home-2-area-shep secondary">
+                                                                <p class="text-capitalize"><span>Hayot</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-jt-heading">
+                                                            <h3 class="text-capitalize"><a href="#" class="title-hover">Jamiyatda o‘z o‘rnini topgan ayol uchun qanday sifatlar zarur?</a></h3>
+                                                            <!--                                                            <p>O‘z o‘rnini topgan ayol uchun mustahkam ishonch, qat'iyatlilik, bilim va donolik zarur...</p>-->
+                                                        </div>
+                                                        <div class="home-2-read-more-btn">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="echo-popular-tabing-item-second-row">
+                                            <div class="row gx-5">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn three">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-6.jpg" alt="Echo"></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep df-orange">
+                                                                    <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Oila – Asosiy Qadriyat</a></h4>
+                                                            <p class="text-center">Davlat ishi, siyosiy faoliyat, jamiyatdagi o‘rnim — bularning barchasi men uchun juda muhim. Lekin shuni unutmayman: men avvalo ayolman, ona va oilaning tayanchiman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="echo-popular-left-bt-contetn four">
+                                                        <div class="echo-popular-left-bt-img">
+                                                            <div class="echo-popular-left-home-2-img-main img-transition-scale">
+                                                                <a href="#"><img src="assets/images/home-2/popular-left/item-7.png" alt=""></a>
+                                                            </div>
+                                                            <div class="echo-popular-bt-area-shep">
+                                                                <div class="home-2-area-shep secondary">
+                                                                    <p class="text-capitalize"><span>Hayot</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-popular-left-bt-title">
+                                                            <h4 class="text-capitalize text-center"><a href="#" class="title-hover">Mening Asosiy Maslahatlarim</a></h4>
+                                                            <p class="text-center">Men o‘z hayotiy tajribamdan kelib chiqib, yosh qizlarga va barcha ayollarga shunday maslahat beraman.</p>
+                                                        </div>
+                                                        <div class="home-2-read-more-btn text-center">
+                                                            <a href="#" class="text-uppercase df-color">Batafsil o'qish</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="echo-popular-item-category">
+                                    <div class="row flex-sm-wrap">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <div class="echo-popular-cat-content">
+                                                <div class="echo-popular-cat-img img-transition-scale">
+                                                    <a href="#"> <img src="assets/images/home-2/popular-left/item-1.png" alt="Echo"></a>
+                                                </div>
+                                                <div class="echo-popular-cat-title">
+                                                    <h6 class="text-capitalize"><a href="#" class="title-hover">Asosiylardan tashqari 5 ta trikotaj kiyim...</a></h6>
+                                                    <div class="echo-popular-cat-view">
+                                                        <a href="#" class="pe-none"><i class="fa-light fa-eye"></i> 3.5k Ko'rishlar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <div class="echo-popular-cat-content">
+                                                <div class="echo-popular-cat-img img-transition-scale">
+                                                    <a href="#"> <img src="assets/images/home-2/popular-left/item-2.png" alt="Echo"></a>
+                                                </div>
+                                                <div class="echo-popular-cat-title">
+                                                    <h6 class="text-capitalize"><a href="#" class="title-hover">Joe's brendining 10 ta moda elementlari...</a></h6>
+                                                    <div class="echo-popular-cat-view">
+                                                        <a href="#" class="pe-none"><i class="fa-light fa-eye"></i> 3.5k Ko'rishlar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <div class="echo-popular-cat-content">
+                                                <div class="echo-popular-cat-img img-transition-scale">
+                                                    <a href="#"> <img src="assets/images/home-2/popular-left/item-3.png" alt="Echo"></a>
+                                                </div>
+                                                <div class="echo-popular-cat-title">
+                                                    <h6 class="text-capitalize"><a href="#" class="title-hover">Kuz va qish uchun 15 ta stylish palto</a></h6>
+                                                    <div class="echo-popular-cat-view">
+                                                        <a href="#" class="pe-none"><i class="fa-light fa-eye"></i> 3.5k Ko'rishlar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <div class="echo-popular-cat-content">
+                                                <div class="echo-popular-cat-img img-transition-scale">
+                                                    <a href="#"> <img src="assets/images/home-2/popular-left/item-4.png" alt="Echo"></a>
+                                                </div>
+                                                <div class="echo-popular-cat-title">
+                                                    <h6 class="text-capitalize"><a href="#" class="title-hover">Ushbu jozibali, ayollikni namoyish etuvchi...</a></h6>
+                                                    <div class="echo-popular-cat-view">
+                                                        <a href="#" class="pe-none"><i class="fa-light fa-eye"></i> 3.5k Ko'rishlar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="echo-feature-area-right-site-follower">
+                                    <!-- <div class="echo-home-2-title">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="echo-home-2-main-title">
+                                                    <h4 class="text-capitalize text-center">Obuna Boling</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><i class="fa-brands fa-facebook"></i>20K Obunachilar</a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i>9K Obunachilar</a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i>50K Obunachilar</a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i>3K Obunachilar</a></li>
+                                        <li><a href="#"><i class="fa-brands fa-pinterest"></i>3K Obunachilar</a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube"></i>4K Obunachilar</a></li>
+                                    </ul> -->
+                                </div>
+<!--                                <div class="echo-popular-hl-img">-->
+<!--                                    <div class="echo-home-2-title">-->
+<!--                                        <div class="row">-->
+<!--                                            <div class="col-lg-12">-->
+<!--                                                <div class="echo-home-2-main-title">-->
+<!--                                                    <h4 class="text-capitalize text-center">Popular Categories</h4>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="echo-popular-item">-->
+<!--                                        <ul class="list-unstyled">-->
+<!--                                            <li>-->
+<!--                                                <h5 class="text-capitalize"><a href="category-style-1.html">Fashion & Hayot Tarzi</a></h5>-->
+<!--                                            </li>-->
+<!--                                            <li>-->
+<!--                                                <h5 class="text-capitalize"><a href="category-style-2.html">Relationship</a></h5>-->
+<!--                                            </li>-->
+<!--                                            <li>-->
+<!--                                                <h5 class="text-capitalize"><a href="category-style-3.html">Art & Culture</a></h5>-->
+<!--                                            </li>-->
+<!--                                            <li>-->
+<!--                                                <h5 class="text-capitalize"><a href="category-style-1.html">Self Development</a></h5>-->
+<!--                                            </li>-->
+<!--                                            <li>-->
+<!--                                                <h5 class="text-capitalize"><a href="category-style-2.html">travel & tourism</a></h5>-->
+<!--                                            </li>-->
+<!--                                        </ul>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+                                <div class="echo-feature-area-right-site-full-content">
+                                    <div class="echo-feature-area-right-site-audio-title">
+                                        <div class="echo-home-2-title">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="echo-home-2-main-title">
+                                                        <h4 class="text-capitalize text-center">Mashxur mualliflar</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-feature-area-home-2-responsive">
+                                        <div class="echo-feature-area-right-site-audio-news">
+                                            <div class="echo-feature-area-right-img">
+                                                <a href="#"><img style="border-radius: 100%;" src="assets/images/home-2/popular-right/item-6.png" alt="Echo"></a>
+                                            </div>
+                                            <div class="echo-feature-area-right-audio-text">
+                                                <h5 class="text-capitalize"><a href="#" class="title-hover">Shohida Ibragimova</a></h5>
+                                                <p>Tadbirkor Ayol</p>
+                                            </div>
+                                        </div>
+                                        <div class="echo-feature-area-right-site-audio-news">
+                                            <div class="echo-feature-area-right-img">
+                                                <a href="#"><img style="border-radius: 100%;" src="assets/images/home-2/popular-right/item-7.png" alt="Echo"></a>
+                                            </div>
+                                            <div class="echo-feature-area-right-audio-text">
+                                                <h5 class="text-capitalize"><a href="#" class="title-hover">Gulbahor Tojimirzayev</a></h5>
+                                                <p>B.A Holding Rahbari</p>
+                                            </div>
+                                        </div>
+                                        <div class="echo-feature-area-right-site-audio-news">
+                                            <div class="echo-feature-area-right-img">
+                                                <a href="#"><img style="border-radius: 100%;" src="assets/images/home-2/popular-right/item-8.png" alt="Echo"></a>
+                                            </div>
+                                            <div class="echo-feature-area-right-audio-text">
+                                                <h5 class="text-capitalize"><a href="#" class="title-hover">Durdona Rahimova</a></h5>
+                                                <p>Hokim Maslahatchisi</p>
+                                            </div>
+                                        </div>
+                                        <div class="echo-feature-area-right-site-audio-news">
+                                            <div class="echo-feature-area-right-img">
+                                                <a href="#"><img style="border-radius: 100%;"    src="assets/images/home-2/popular-right/item-9.png" alt="Echo"></a>
+                                            </div>
+                                            <div class="echo-feature-area-right-audio-text">
+                                                <h5 class="text-capitalize"><a href="#" class="title-hover">Mahliyo Tojiyeva</a></h5>
+                                                <p>Sayohatchi</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Popular Area -->
+
+    <!-- Start Cl Blocks Area -->
+    <section class="echo-cl-blocks-area">
+        <div class="echo-cl-blocks-content">
+            <div class="container">
+                <div class="echo-cl-blocks-full-content">
+                    <div class="row gx-5">
+                        <div class="col-lg-5">
+                            <div class="echo-cl-blocks-img img-transition-scale">
+                                <a href="#"><img src="assets/images/home-2/cl-blocks/item-1.png" alt="Echo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="echo-cl-blocks-text">
+                                <div class="echo-cl-blocks-area-shep">
+                                    <div class="home-2-area-shep secondary">
+                                        <p class="text-capitalize"><span>TURKON JURNALI</span></p>
+                                    </div>
+                                </div>
+                                <div class="echo-cl-blocks-title">
+                                    <h3 class="text-capitalize">
+                                        <a href="#" class="title-hover">Loyiha Haqida</a>
+                                    </h3>
+                                    <p> O‘zbekiston Respublikasi hududida faoliyat yurutuvchi tadbirkor ayyollar ish faoliyatini keng ommaga hamda, xalqaro miqyosda targ‘ib qilish uchun mo‘ljallangan bosma nashr va onlayn axborot portalini o‘z ichiga oladi.
+                                        Loyihaning asosiy maqsadi jahon hamjamiyatiga O‘zbek tadbirkor ayyollarini olib borayotgan faoliyatida eksport, import va sarmoyaviy salohiyatini namoyish etishdan iborat.
+                                        Nashrda tadbirkor ayyollarni qo‘llab-quvvatlash bo‘yicha amalga oshirilayotgan chora-tadbirlari to‘g‘risidagi axborot bloki, jamiyatimizda xotin-qizlar, oila va gender tenglik masalalari, muvaffaqiyatli ishbilarmonlar va nufuzli shaxslar bilan suhbatlar, tahliliy sharhlar, ta’lim va axborot texnologiyalari, ekologiya, turizm, va tekistilga oid mavzular o‘rin olgan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Cl Blocks Area-->
+
+    <!-- Start Fd Post Area -->
+    <section class="echo-fd-post-area">
+        <div class="echo-fd-post-content">
+            <div class="container">
+                <div class="echo-fd-post-full-content">
+                    <div class="echo-home-2-title">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="echo-home-2-main-title">
+                                    <h4 class="text-capitalize text-center">Biznesni</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="echo-fd-post-main-content">
+                        <div class="row gx-5">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="echo-fd-post-left">
+                                    <div class="echo-fd-post-left-img img-transition-scale position-relative">
+                                        <a href="#"><img src="assets/images/home-2/fd-post/item-1.jpg" alt="Echo"></a>
+                                        <div class="echo-fd-area-left-site-shep">
+                                            <div class="home-2-area-shep secondary">
+                                                <p class="text-capitalize"><span>Biznes</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-fd-post-left-title">
+                                        <h3 class="text-capitalize text-center"><a href="#" class="title-hover">Biznesni O'stirish uchun 10 Strategiya</a></h3>
+                                        <p class="text-center">Brendingizni o‘stirish va bozorga ko‘proq ta’sir o‘tkazish uchun foydali biznes strategiyalari bilan bo‘lishyapman.</p>
+                                    </div>
+                                    <div class="home-2-read-more-btn text-center">
+                                        <a href="#" class="text-uppercase">Batafsil o‘qing</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="echo-fd-post-home-2-responsive-flexing">
+                                    <div class="echo-fd-post-right-area">
+                                        <div class="echo-fd-post-right-content img-transition-scale">
+                                            <a href="#"><img src="assets/images/home-2/fd-post/item-2.jpg" alt="Echo"></a>
+                                        </div>
+                                        <div class="echo-fd-post-right-text">
+                                            <div class="echo-fd-post-right-area-shep">
+                                                <div class="home-2-area-shep secondary">
+                                                    <p class="text-capitalize"><span>Marketing</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="echo-fd-post-right-heading">
+                                                <h4 class="text-capitalize"><a href="#" class="title-hover">Muvaffaqiyatli Marketing Kampaniyasini Yaratish</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-fd-post-right-area">
+                                        <div class="echo-fd-post-right-content img-transition-scale">
+                                            <a href="#"><img src="assets/images/home-2/fd-post/item-3.png" alt="Echo"></a>
+                                        </div>
+                                        <div class="echo-fd-post-right-text">
+                                            <div class="echo-fd-post-right-area-shep">
+                                                <div class="home-2-area-shep secondary">
+                                                    <p class="text-capitalize"><span>Boshqaruv</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="echo-fd-post-right-heading">
+                                                <h4 class="text-capitalize"><a href="#" class="title-hover">Biznes Muvaffaqiyati uchun Kuchli Jamoa Qurish</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-fd-post-right-area">
+                                        <div class="echo-fd-post-right-content img-transition-scale">
+                                            <a href="#"><img src="assets/images/home-2/fd-post/item-4.png" alt="Echo"></a>
+                                        </div>
+                                        <div class="echo-fd-post-right-text">
+                                            <div class="echo-fd-post-right-area-shep">
+                                                <div class="home-2-area-shep secondary">
+                                                    <p class="text-capitalize"><span>Investitsiya</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="echo-fd-post-right-heading">
+                                                <h4 class="text-capitalize"><a href="#" class="title-hover">Uzoq Muddatli Muvaffaqiyat uchun Investitsiyani Tushunish</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Fd Post Area -->
+
+    <!-- Start Archive Area -->
+    <section class="echo-archive-area">
+        <div class="echo-archive-area-content">
+            <div class="container">
+                <div class="echo-archive-area-full-content">
+                    <div class="echo-home-2-title">
+                        <div class="row text-left">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="echo-home-2-main-title">
+                                    <h4 class="text-capitalize">Salomatlik va go'zallik</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="echo-archive-area-slider-content">
+                        <div class="row gx-5">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="echo-archive-main-content area-2">
+                                    <div class="swiper rts-bannerSlider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="echo-banner-mani-content">
+                                                    <div class="echo-banner-img">
+                                                        <img src="assets/images/home-2/archive/item-1.png" alt="Echo">
+                                                    </div>
+                                                    <div class="echo-banner-text">
+                                                        <div class="echo-banner-shep">
+                                                            <div class="home-2-area-shep">
+                                                                <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-banner-heading">
+                                                            <h1 class="text-capitalize"><a href="#" class="title-hover">Eng yaxshi sog‘lom nonushta Power Powder</a></h1>
+                                                        </div>
+                                                        <div class="echo-banner-slider-button">
+                                                            <div class="swiper-button-next"></div>
+                                                            <div class="swiper-button-prev"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="echo-banner-mani-content">
+                                                    <div class="echo-banner-img">
+                                                        <img src="assets/images/home-2/archive/item-6.png" alt="Echo">
+                                                    </div>
+                                                    <div class="echo-banner-text">
+                                                        <div class="echo-banner-shep">
+                                                            <div class="home-2-area-shep">
+                                                                <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-banner-heading">
+                                                            <h1 class="text-capitalize"><a href="#" class="title-hover">Suyaklarga foydali vitaminlar beradigan sharbatlar</a></h1>
+                                                        </div>
+                                                        <div class="echo-banner-slider-button">
+                                                            <div class="swiper-button-next"></div>
+                                                            <div class="swiper-button-prev"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="echo-banner-mani-content">
+                                                    <div class="echo-banner-img">
+                                                        <img src="assets/images/home-2/archive/item-5.png" alt="Echo">
+                                                    </div>
+                                                    <div class="echo-banner-text">
+                                                        <div class="echo-banner-shep">
+                                                            <div class="home-2-area-shep">
+                                                                <p class="text-capitalize"><span>Hayot Tarzi</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="echo-banner-heading">
+                                                            <h1 class="text-capitalize"><a href="#" class="title-hover">Mevalar: organizm uchun foydali moddalarga boy</a></h1>
+                                                        </div>
+                                                        <div class="echo-banner-slider-button">
+                                                            <div class="swiper-button-next"></div>
+                                                            <div class="swiper-button-prev"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12">
+                                <div class="echo-fd-psot-home-2-responsive-flexing">
+                                    <div class="echo-archive-area-right-site">
+                                        <div class="echo-archive-right-content">
+                                            <div class="echo-archive-right-text">
+                                                <div class="echo-archive-right-area-shep">
+                                                    <div class="home-2-area-shep secondary">
+                                                        <p class="text-capitalize"><span>Gozallik</span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="echo-archive-right-heading">
+                                                    <h5 class="text-capitalize"><a href="#" class="title-hover">Pop Quiz: Sizning lab bo'yoqingiz va siz...</a></h5>
+                                                </div>
+                                            </div>
+                                            <div class="echo-archive-right-img img-transition-scale">
+                                                <a href="#"><img src="assets/images/home-2/archive/item-2.png" alt="Echo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-archive-area-right-site">
+                                        <div class="echo-archive-right-content">
+                                            <div class="echo-archive-right-text">
+                                                <div class="echo-archive-right-area-shep">
+                                                    <div class="home-2-area-shep secondary">
+                                                        <p class="text-capitalize"><span>Gozallik</span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="echo-archive-right-heading">
+                                                    <h5 class="text-capitalize"><a href="#" class="title-hover">Go'zallik bo'yicha maslahatlar: Gabrielle Korn</a></h5>
+                                                </div>
+                                            </div>
+                                            <div class="echo-archive-right-img img-transition-scale">
+                                                <a href="#"><img src="assets/images/home-2/archive/item-3.png" alt="Echo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="echo-archive-area-right-site">
+                                        <div class="echo-archive-right-content">
+                                            <div class="echo-archive-right-text">
+                                                <div class="echo-archive-right-area-shep">
+                                                    <div class="home-2-area-shep secondary">
+                                                        <p class="text-capitalize"><span>Gozallik</span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="echo-archive-right-heading">
+                                                    <h5 class="text-capitalize"><a href="#" class="title-hover">5 daqiqalik odat, sizning biznesingizni o'zgartiradi</a></h5>
+                                                </div>
+                                            </div>
+                                            <div class="echo-archive-right-img img-transition-scale">
+                                                <a href="#"><img src="assets/images/home-2/archive/item-4.png" alt="Echo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Archive Area -->
+
+    <!-- Start Add Area -->
+    <section class="echo-add-area" id="cooperation">
+
+    </section>
+    <section class="echo-add-area">
+        <a href="#">
+            <div class="container-fluid">
+                <img src="assets/images/home-2/add/item-1.png" alt="Echo" width="100%" height="800px" class="img-fluid">
+            </div>
+        </a>
+        
+    </section>
+    <!-- End Add Area -->
+
+    <!-- Start Hm-2 video Area -->
+    <section class="echo-hm2-video-area" id="businessPossibilities">
+        <div class="echo-hm2-video-area-content">
+            <div class="echo-container">
+                <div class="echo-hm2-video-area-full-content">
+                    <div class="echo-row text-center">
+                        <div class="swiper echo-hm2-video-Swiper">
+                            <div class="swiper-wrapper">
+                                <!-- Slide 1 -->
+                                <div class="swiper-slide">
+                                    <div class="echo-hm2-video-img">
+                                        <img src="assets/images/home-2/hm2-video/item-1.png" alt="Echo">
+                                        <div class="echo-hm2-video-icons">
+                                            <div class="vedio-icone">
+                                                <a class="play-video popup-youtube video-play-button" href="https://www.youtube.com/watch?v=fYbpGTgfivI">
+                                                    <span></span>
+                                                </a>
+                                                <div class="video-overlay">
+                                                    <a class="video-overlay-close">×</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="echo-hm2-video-text-box">
+                                            <div class="echo-hm2-video-area-shep">
+                                                <div class="home-2-area-shep secondary">
+                                                    <p class="text-capitalize"><span>Biznes</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="echo-hm2-video-heading">
+                                                <h1 class="text-capitalize text-center"><a href="#" class="title-hover">Yangi biznes imkoniyatlari</a></h1>
+                                            </div>
+                                            <div class="echo-hm2-video-discription">
+                                                <p>Biznes dunyosida har doim yangi imkoniyatlar mavjud. Bugungi kunda, texnologiya va innovatsiyalar yordamida yangi sohalarda muvaffaqiyatga erishish mumkin. Biznesingizni rivojlantirish uchun qanday yo'llar mavjud? Bizning blogimizda bu haqda batafsil ma'lumot olasiz.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="swiper-slide">
+                                    <div class="echo-hm2-video-img">
+                                        <img src="assets/images/home-2/hm2-video/item-2.png" alt="Echo">
+                                        <div class="echo-hm2-video-icons">
+                                            <div class="vedio-icone">
+                                                <a class="play-video popup-youtube video-play-button" href="https://www.youtube.com/watch?v=fYbpGTgfivI">
+                                                    <span></span>
+                                                </a>
+                                                <div class="video-overlay">
+                                                    <a class="video-overlay-close">×</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="echo-hm2-video-text-box">
+                                            <div class="echo-hm2-video-area-shep">
+                                                <div class="home-2-area-shep secondary">
+                                                    <p class="text-capitalize"><span>Biznes</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="echo-hm2-video-heading">
+                                                <h1 class="text-capitalize text-center"><a href="#" class="title-hover">Marketing strategiyalari</a></h1>
+                                            </div>
+                                            <div class="echo-hm2-video-discription">
+                                                <p>Marketing strategiyalari sizning biznesingizni yangi bosqichga olib chiqishi mumkin. Raqobatbardoshlikni oshirish va mijozlar bilan munosabatlarni yaxshilash uchun qanday yangi usullarni qo'llash mumkin? Bizning maqolamizda bular haqida batafsil fikrlar bilan tanishasiz.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="swiper-slide">
+                                    <div class="echo-hm2-video-img">
+                                        <img src="assets/images/home-2/hm2-video/item-3.png" alt="Echo">
+                                        <div class="echo-hm2-video-icons">
+                                            <div class="vedio-icone">
+                                                <a class="play-video popup-youtube video-play-button" href="https://www.youtube.com/watch?v=fYbpGTgfivI">
+                                                    <span></span>
+                                                </a>
+                                                <div class="video-overlay">
+                                                    <a class="video-overlay-close">×</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="echo-hm2-video-text-box">
+                                            <div class="echo-hm2-video-area-shep">
+                                                <div class="home-2-area-shep secondary">
+                                                    <p class="text-capitalize"><span>Biznes</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="echo-hm2-video-heading">
+                                                <h1 class="text-capitalize text-center"><a href="#" class="title-hover">Yangi biznesni qanday boshlash kerak?</a></h1>
+                                            </div>
+                                            <div class="echo-hm2-video-discription">
+                                                <p>Yangi startap yaratish — bu yuqori xavfli, lekin juda foydali biznes yo'li. Biz sizga startap yaratishda muvaffaqiyatli bo'lish uchun qanday strategiyalarni qo'llash kerakligi haqida maslahatlar beramiz. Bugungi kunda innovatsiyalarni qo'llash qanday imkoniyatlar yaratadi?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="echo-banner-slider-button">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Hm-2 Video Area -->
+
+
+
+
+
+
+    <!-- Start Footer Area -->
+    <!-- Start Footer Area -->
+    <footer class="echo-footer-area footer-2" id="footer">
+        <div class="container">
+            <div class="echo-row">
+                <div class="echo-footer-content-1">
+                    <div class="echo-get-in-tuch">
+                        <h4 class="text-capitalize">Aloqa uchun:</h4>
+                    </div>
+                    <div class="echo-footer-address">
+                        <span class="text-capitalize"><i class="fa-regular fa-map"></i> 255 Ko'cha, Yangi Avanew, Toshkent</span>
+                        <span class="text-capitalize"><i class="fa-regular fa-phone"></i> +998 71 123 45 67</span>
+                        <span class="text-capitalize"><i class="fa-sharp fa-regular fa-envelope"></i> info@turkon.biz</span>
+
+                        <div class="echo-footer-social-media">
+                            <a href="https://www.facebook.com/profile.php?id=61572360155509">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://t.me/Turkon_busness">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/turkonuz/?igsh=Mjg4amN4aDVyNG1y#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="echo-footer-content-2">
+                    <div class="echo-get-in-tuch">
+                        <h4 class="text-capitalize">Ruknlar</h4>
+                    </div>
+                    <div class="echo-footer-most-popular">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Biznes</a></li>
+                            <li><a href="#">Intervyu</a></li>
+                            <li><a href="#">Siyosat</a></li>
+                            <li><a href="#">Texnologiya</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Turmush tarzi</a></li>
+                            <li><a href="#">Moda</a></li>
+                            <li><a href="#">Sayohatlar</a></li>
+                            <li><a href="#">Sport</a></li>
+                            <li><a href="#">Ko'ngilochar</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="echo-footer-content-3">
+                    <div class="echo-get-in-tuch">
+                        <h4 class="text-capitalize">Yordam</h4>
+                    </div>
+                    <div class="echo-footer-help">
+                        <ul class="list-unstyled">
+                            <li><a href="about.html">Biz Haqimizda</a></li>
+                            <li><a href="#">Media to‘plami</a></li>
+                            <li><a href="#">Reklama berish</a></li>
+                            <li><a href="#">Maxfiylik siyosati</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="echo-footer-content-4">
+                    <div class="echo-get-in-tuch">
+                        <h4 class="text-capitalize">Jurnal</h4>
+                    </div>
+                    <div class="echo-footer-news-text">
+                        <p>
+                            Hozir ro‘yxatdan o‘ting va jurnalga obuna bo'ling.</p>
+                    </div>
+                    <div class="echo-subscribe-box-button">
+                        <form id="subscribeForm">
+                            <div class="echo-subscribe-input-fill">
+                                <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.8" d="M14.4414 11.6674C14.4402 11.8345 14.3734 11.9944 14.2553 12.1127C14.1371 12.2309 13.9773 12.2979 13.8101 12.2993H2.34541C2.17792 12.2991 2.01736 12.2325 1.89899 12.114C1.78062 11.9955 1.71413 11.8348 1.71413 11.6674V11.0265H13.1687V3.58109L8.07777 8.16291L1.71413 2.43564V1.48109C1.71413 1.31232 1.78118 1.15045 1.90052 1.03111C2.01986 0.911772 2.18172 0.844727 2.3505 0.844727H13.805C13.9738 0.844727 14.1357 0.911772 14.255 1.03111C14.3744 1.15045 14.4414 1.31232 14.4414 1.48109V11.6674ZM3.26304 2.11745L8.07777 6.45109L12.8925 2.11745H3.26304ZM0.441406 8.48109H5.53232V9.75382H0.441406V8.48109ZM0.441406 5.29927H3.62322V6.572H0.441406V5.29927Z" fill="white" />
+                                </svg>
+                                <input type="text" id="phoneNumber" placeholder="Telefon raqamingizni kiriting!" required>
+                            </div>
+                            <div class="echo-footer-area-subscribe-button">
+                                <button type="submit" class="echo-py-btn-border text-capitalize">Obuna uchun so'rov</button>
+                            </div>
+                        </form>
+                        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+                            <script>
+                                document.getElementById("subscribeForm").addEventListener("submit", function(event) {
+                                    event.preventDefault();
+                            
+                                    let phone = document.getElementById("phoneNumber").value;
+                                    let token = "7504038943:AAFn6nBPmlqqFXqVoyGY29KQz4ZbmuRZOXA";
+                                    let chatId = "-1002496832862";
+                                    let text = `Yangi obuna: ${phone}`;
+                            
+                                    let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`;
+                            
+                                    fetch(url).then(response => {
+                                        if (response.ok) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xabar yuborildi!',
+                                                text: 'Sizning xabaringiz muvaffaqiyatli yuborildi.',
+                                                confirmButtonText: 'OK'
+                                            });
+                                            document.getElementById("contact-form").reset();
+                                        } else {
+                                            Swal.fire({
+                                                icon: 'error',
+                                                title: 'Xatolik yuz berdi!',
+                                                text: 'Iltimos, qayta urinib ko‘ring.',
+                                                confirmButtonText: 'Yopish'
+                                            });
+                                        }
+                                    })
+                                });
+                            </script>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div class="echo-footer-copyright-area">
+        <div class="copyright-area-inner">
+            <div class="footer-logo"><a href="index.html"><img src="assets/images/home-2/logo/logo.png" alt="logo"></a></div>
+            <div class="copyright-content">
+                <h5 class="title">© Mualliflik huquqi 2025 Turkon tomonidan</h5>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Area -->
+    <!-- End Footer Area -->
+
+    <!-- Start Scricpt Area -->
+
+    <!--scroll top button-->
+    <button class="scroll-top-btn">
+        <i class="fa-regular fa-angles-up"></i>
+    </button>
+    <!--scroll top button end-->
+
+    <div id="anywhere-home"></div>
+
+    <script src="assets/js/vendor/jquery.min.js" defer></script>
+    <script src="assets/js/plugins/audio.js" defer></script>
+    <script src="assets/js/vendor/bootstrap.min.js" defer></script>
+    <script src="assets/js/vendor/swiper.js" defer></script>
+    <script src="assets/js/vendor/metisMenu.min.js" defer></script>
+    <script src="assets/js/plugins/audio.js" defer></script>
+    <script src="assets/js/plugins/magnific-popup.js" defer></script>
+    <script src="assets/js/plugins/contact-form.js" defer></script>
+    <script src="assets/js/plugins/resize-sensor.min.js" defer></script>
+    <script src="assets/js/plugins/theia-sticky-sidebar.min.js" defer></script>
+
+    <!-- main js file -->
+    <script src="assets/js/main.js" defer></script>
+    <!-- End Footer Area -->
+
+
+</body>
+
+</html>
